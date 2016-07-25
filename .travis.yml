@@ -1,0 +1,7 @@
+# This is a test of Python 2
+language: python
+python:
+  - "2.7"
+before_script:
+  - python -V
+script: python -c 'import math; print(math.pow(2,3))'
